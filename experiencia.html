@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currículo - experiência</title>
+    <style>
+        body {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2% 0;
+    font-family: 'Inter', sans-serif;
+    background: #f8bf7a;
+    color: #444;
+    line-height: 1.5;
+}
+
+main {
+    background: #fddfb7;
+    padding: 2rem 2.5rem;
+    border-radius: 18px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.6rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #d2c7b8;
+}
+
+nav a {
+    color: #8c4c08;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #613502;
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    object-fit: cover;
+    border: 3px solid #8c4c08;
+}
+
+h1,
+h2 {
+    color: rgb(140, 76, 8);
+}
+
+h1 {
+    margin-bottom: 0.25rem;
+}
+
+section {
+    margin-top: 0px;
+    padding-bottom: 5px;
+    border-top: solid 1px gray;
+    padding-top: 1rem;
+}
+
+section:first-of-type {
+    border-top: none;
+}
+
+section.destaque {
+    background: #fff4e6;
+    border-left: 4px solid #8c4c08;
+    padding: 1rem 1rem 1rem 1.25rem;
+}
+
+ul,
+ol {
+    margin-left: 1.4rem;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.85rem;
+}
+
+.contact-list img {
+    width: 30px;
+    height: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 0.85rem;
+    text-align: left;
+}
+
+table caption {
+    caption-side: top;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+
+figure {
+    margin: 1.2rem 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    border-radius: 18px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+figcaption {
+    margin-top: 0.65rem;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+a.button {
+    display: inline-block;
+    background: #8c4c08;
+    color: #ffffff;
+    padding: 0.65rem 1rem;
+    border-radius: 999px;
+    text-decoration: none;
+    transition: background 0.25s ease;
+}
+
+a.button:hover {
+    background: #6f3902;
+}
+
+section:hover {
+    background: rgba(248, 238, 226, 0.65);
+}
+
+a:hover,
+.contact-list a:hover {
+    color: #613502;
+}
+
+iframe,
+video {
+    width: 100%;
+    min-height: 320px;
+    border: none;
+    border-radius: 14px;
+}
+
+footer {
+    margin-top: 1.8rem;
+    font-size: 0.95rem;
+    color: #666;
+}
+    </style>
+</head>
+<body>
+    <main>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="#detalhes">Detalhes</a>
+            <a href="#tabela">Tabela</a>
+            <a href="#video">Vídeo</a>
+        </nav>
+
+        <section id="audio" class="destaque">
+            <p>Coloque essa musiquinha para te acompanhar nesse currículo super legal =)</p>
+            <audio id="background-audio" src="You Day.mp3" preload="auto" loop controls></audio>
+        </section>
+
+        <section id="detalhes">
+            <h2>Detalhes da Experiência</h2>
+            <p>Esta página apresenta informações complementares sobre as experiências profissionais de um festeiro dedicado a projetos divertidos =).</p>
+            <p>Explore a tabela de realizações divertidas, a imagem de uma parte do nosso lugar de festa (level fun) e um vídeo com uma musiquinha super divertida feito por nós festeiros =).</p>
+        </section>
+
+        <section id="tabela" class="destaque">
+            <h2>Histórico de Projetos divertidos</h2>
+            <table>
+                <caption>Principais projetos divertidos concluídos =)</caption>
+                <thead>
+                    <tr>
+                        <th>Ano</th>
+                        <th>Projeto</th>
+                        <th>Ferramentas</th>
+                        <th>Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2024</td>
+                        <td>Assistente de festas</td>
+                        <td>Mecher com balões e fazer bolo de carne =)</td>
+                        <td>Muita felicidade =)</td>
+                    </tr>
+                    <tr>
+                        <td>2025</td>
+                        <td>Participando da Guerra divertida (Fun War)
+                        </td>
+                        <td>Fazendo bombas de confete e varias armadilhas de torta na cara =)</td>
+                        <td>Quase ganhamos dos caras chatos =)</td>
+                    </tr>
+                    <tr>
+                        <td>2026</td>
+                        <td>Organizador de recepção dos novos convidados =)</td>
+                        <td>Ajudando a tornar o ambiente amigavel para nossos convidados especiais =)</td>
+                        <td>Todos ficaram felizes para sempre =)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="figura">
+            <h2>Uma foto =)</h2>
+            <figure>
+                <img src="LevelFUN.png" >
+                <figcaption>uma pequena imagem do meu lugar de trabalho =)</figcaption>
+            </figure>
+        </section>
+
+        <section id="video">
+            <h2>Musica sobre o level Fun =)</h2>
+            <video id="fun-video" controls preload="none">
+                <source src="levelfunvideo.mp4" type="video/mp4">
+            </video>
+            <p>O vídeo só começa quando você clicar no play bobinho =)</p>
+        </section>
+
+        <section>
+            <h2>Voltar</h2>
+            <p><a class="button" href="começo.html">Voltar à página principal =)</a></p>
+        </section>
+    </main>
+</body>
+</html>
